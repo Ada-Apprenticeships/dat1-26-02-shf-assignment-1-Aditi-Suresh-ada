@@ -2,7 +2,7 @@
 .mode column
 
 -- 1.1
-
+select member_id, first_name, last_name, email, join_date from members;
 
 -- 1.2
 
