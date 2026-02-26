@@ -5,6 +5,10 @@
 select member_id, first_name, last_name, email, join_date from members;
 
 -- 1.2
+update members
+ set phone_number = '07000 100005', 
+     email = 'emily.jones.updated@email.com' 
+where member_id = 5;
 
 
 -- 1.3
