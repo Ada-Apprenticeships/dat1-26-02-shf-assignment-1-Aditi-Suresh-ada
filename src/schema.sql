@@ -87,7 +87,7 @@ CREATE TABLE attendance(
     member_id  INT,
     location_id  INT,
     check_in_time  DATETIME NOT NULL,
-    check_out_time  DATETIME,
+    check_out_time  DATETIME
  )
 ;
 
@@ -154,9 +154,9 @@ CREATE TABLE personal_training_sessions(
     session_id  int,
     member_id  int,
     staff_id  int,
-    session_date  text,
-    start_time  text,
-    end_time  text,
+    session_date  DATE,
+    start_time  TIME,
+    end_time  TIME,
     notes    text
  )
 ;

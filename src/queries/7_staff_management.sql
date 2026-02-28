@@ -12,7 +12,7 @@ FROM staff AS s
 
 -- 7.2 
 SELECT s.staff_id AS trainer_id,
-       CONCAT(s.first_name, ' ', s.last_name) AS full_name, 
+       CONCAT(s.first_name, ' ', s.last_name) AS trainer_name, 
        COUNT(*) AS session_count
 FROM personal_training_sessions AS pts
 JOIN staff AS s
