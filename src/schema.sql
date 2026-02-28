@@ -97,7 +97,7 @@ CREATE TABLE payments(
     payment_id  int,
     member_id  int,
     amount    real,
-    payment_date  text,
+    payment_date  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     payment_method  text,
     payment_type  text
  )
