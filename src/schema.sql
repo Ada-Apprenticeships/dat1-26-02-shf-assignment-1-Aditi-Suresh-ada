@@ -87,7 +87,7 @@ CREATE TABLE attendance(
     member_id  INT,
     location_id  INT,
     check_in_time  DATETIME NOT NULL,
-    check_out_time  DATETIME NOT NULL
+    check_out_time  DATETIME,
  )
 ;
 
