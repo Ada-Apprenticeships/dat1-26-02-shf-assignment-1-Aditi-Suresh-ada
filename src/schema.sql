@@ -83,11 +83,11 @@ CREATE TABLE equipment(
 DROP TABLE IF EXISTS attendance;
 
 CREATE TABLE attendance(
-    attendance_id  int,
-    member_id  int,
-    location_id  int,
-    check_in_time  text,
-    check_out_time  text
+    attendance_id  INT PRIMARY KEY,
+    member_id  INT,
+    location_id  INT,
+    check_in_time  DATETIME NOT NULL,
+    check_out_time  DATETIME NOT NULL
  )
 ;
 
